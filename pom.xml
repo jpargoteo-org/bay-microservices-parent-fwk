@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.5.RELEASE</version>
+        <version>2.3.4.RELEASE</version>
     </parent>
     <groupId>es.jpargoteo.bay</groupId>
     <artifactId>bay-fwk-superpom</artifactId>
@@ -54,6 +54,11 @@
                 <artifactId>bay-fwk-openapi</artifactId>
                 <version>${bay-fwk-version}</version>
             </dependency>
+            <dependency>
+                <groupId>es.jpargoteo.bay</groupId>
+                <artifactId>bay-fwk-data-mongodb</artifactId>
+                <version>${bay-fwk-version}</version>
+            </dependency>
 
             <!-- STARTERS -->
             <dependency>
@@ -69,6 +74,11 @@
             <dependency>
                 <groupId>es.jpargoteo.bay</groupId>
                 <artifactId>bay-fwk-starter-openapi</artifactId>
+                <version>${bay-fwk-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>es.jpargoteo.bay</groupId>
+                <artifactId>bay-fwk-starter-data-mongodb</artifactId>
                 <version>${bay-fwk-version}</version>
             </dependency>
         </dependencies>
